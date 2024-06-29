@@ -1,0 +1,47 @@
+* {
+    background-color:darkslategrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+}
+
+h1 {
+    color:darkseagreen;
+    margin: 20px;
+    
+
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p {
+    color:paleturquoise;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+}
+
+ul li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+ul li a {
+    color: paleturquoise;
+    text-decoration: none;
+
+    border: 2px solid palegoldenrod;
+    padding: 8px 10px;
+    border-radius: 10px;
+
+    transition: all 0.2s ease;
+}
+
+ul li a:hover {
+    background-color: palegoldenrod;
+    color: darkslategrey;
+}
